@@ -12,6 +12,11 @@ Node* STRAT = NULL;
 void addNode() {
 	int nim;
 	string nama;
-	Node* nodebaru = new Node();
-	
+	Node* nodeBaru = new Node();
+	cout << "Masukan NIM: ";
+	cin >> nim;
+	cout << "Masukan Nama: ";
+	cin >> nama;
+	nodeBaru->noMhs = nim;
+	nodeBaru->name = nama;
 }

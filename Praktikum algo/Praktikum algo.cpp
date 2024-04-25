@@ -87,4 +87,5 @@ bool listEmpty() {
 }
 
 void traverse() {
-    
+    if (listEmpty()) {
+       
